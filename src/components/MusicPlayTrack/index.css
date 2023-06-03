@@ -1,0 +1,36 @@
+.app-container {
+  max-height: 100vh;
+}
+.singer-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bottom-section {
+  background-color: #152850;
+}
+.play-list-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.search-input {
+  height: 30px;
+  width: 250px;
+}
+.songs-list-heading {
+  font-size: 24px;
+  color: #ffff;
+  font-family: 'roboto';
+}
+.songs-under-list-container {
+  overflow: auto;
+  max-height: 42vh;
+  margin-right: 50px;
+}
